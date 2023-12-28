@@ -1,0 +1,438 @@
+/* pages */
+
+/* landing page  */
+/* landing page nav bar  */
+.landingPage-Nav_Wrap {
+  position: relative;
+  top: 0;
+}
+
+.landingPage-Nav-Cont {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 1rem 3rem;
+  background: linear-gradient(rgb(0 0 0 / 57%), rgb(0 0 0 / 0%));
+}
+
+.landingPage-Nav-Logo {
+  width: 8.5rem;
+}
+
+/* landing page carousel */
+.carousel-Wrapper {
+  overflow: hidden;
+}
+
+.carousel-Slides {
+  height: 400px;
+}
+
+.carousel-Slide1 {
+  background: url("../img/slide1.jpeg") center center / cover;
+}
+.carousel-Slide2 {
+  background: url("../img/slide2.jpg") center center / cover;
+}
+.carousel-Slide3 {
+  background: url("../img/slide4.jpg") center center / cover;
+}
+
+/* landing page tabs */
+.landingPage-Tabs-Wrap {
+  margin: -2rem auto;
+}
+.landingPage-Tabs-Cont {
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 15px 24px;
+}
+
+/* Loggedin Home */
+/* Loggedin Home Main */
+.loggedIn-Home-Main {
+  padding-right: 0 !important;
+}
+
+/* logedin Home Sidenav */
+.side-Nav-Bg {
+  background-color: #081528;
+}
+
+/* common custom css between pages */
+.header-Wrap {
+  padding-bottom: 0;
+}
+
+.header-h4-Wrap {
+  padding: 0;
+}
+
+/* Components */
+
+/* Login  */
+.login-Wrap {
+  padding: 0;
+}
+
+/* NewsFlash  */
+.newsFlash-Wrap {
+  padding: 0;
+}
+
+.newsFlash-Cont {
+  margin-bottom: 0;
+}
+
+.newsFlash-Text_Bg {
+  background-color: #3597d4;
+}
+
+/* Fee Collection Management */
+.feeCollection-Wrap {
+  padding-left: 0;
+}
+
+.date-picker-Wrap {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+.date-picker-Wrap button {
+  margin: 0;
+}
+
+.summary-Table-Wrap {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.optionsAccordion-Wrap {
+  padding-top: 0;
+}
+.filterAccordion-Wrap {
+  margin-top: 1.5rem;
+}
+
+.summaryTable1 div .rdt_TableHeadRow div {
+  font-size: 1.2rem;
+}
+
+/* Data Validation */
+.rdt_TableCol {
+  background-color: #3799d1;
+}
+
+.dataValidationForm .dataValidationInputFields-Wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.dataValidationForm .dataValidationRadioBtn-Wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.dataValidationForm .dataValidationRadioBtn-Wrap > div {
+  display: flex;
+  align-items: center;
+}
+
+.dataValidationModalHeader {
+  background: rgb(55, 153, 209);
+  background: linear-gradient(
+    145deg,
+    rgba(55, 153, 209, 1) 0%,
+    rgba(55, 153, 209, 1) 70%,
+    rgba(32, 162, 81, 1) 100%
+  );
+}
+.dataValidation-Wrap {
+  margin-top: 1.5rem;
+}
+
+.dataValidationModalRadioLabel {
+  position: relative;
+  bottom: -10px;
+}
+
+/* Houses */
+.houses-Wrap {
+  margin-top: 1.5rem;
+}
+
+.housesTableFilterBtn {
+  background: #3799d1;
+  border: none;
+  margin: 0 !important;
+}
+
+.houseTableFilterWrap {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.flex-input {
+  min-width: min(100%, 300px);
+  max-width: 300px;
+}
+.place-center {
+  place-content: center;
+}
+
+/* categories */
+.categories-Wrap {
+  margin-top: 1.5rem;
+}
+.categoriesTableFilterBtn {
+  background: #3799d1;
+  border: none;
+  margin: 0 !important;
+}
+.categoriesTableFilterWrap {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* custom buttons */
+.iconbtn {
+  background-color: rgba(212, 212, 212, 0.5);
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.success:hover {
+  background-color: green;
+  color: white;
+}
+.delete:hover {
+  background-color: indianred;
+  color: white;
+}
+/* search bar */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+.change-password-container{
+  width: 50%;
+}
+.search-bar {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 30px;
+  width: 50%;
+  height: 45px;
+  padding: 10px;
+  border: none;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.input-select {
+  padding: 8px 12px;
+  border: none;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.input-field {
+  padding: 8px 12px;
+  border: none;
+  box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.quick-search-container{
+  margin-bottom: 20px;
+  position: relative;
+  width: 30%;
+}
+.quick-search {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+  position: absolute;
+  bottom: -90px;
+}
+.search-icon {
+  position: absolute;
+  top: 20px;
+  right:26%;
+  font-size: 30PX;
+}
+.search-content{
+  margin-left: 23%;
+}
+.pagination-items{
+  display: flex;
+  justify-content: center;
+}
+.bill-filter1 {
+  width: 15%;
+  position: absolute;
+  bottom: -70px;
+
+}
+.bill-filter2 {
+  width: 15%;
+  position: absolute;
+  bottom: -70px;
+  right: 27%;
+}
+.bill-filter-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.locations-container{
+  display: flex;
+  justify-content: center;
+  margin-left: 2%;
+  gap: 10px;
+}  
+.location-input{
+  display: flex;
+  justify-content: center;
+  width: 15%;
+}
+.dataTable-right-align {
+  text-align: right;
+}
+.transfer-input{
+  display: flex;
+  justify-content: start;
+  width: 20%;
+}
+.disbursement-btn{
+  margin-left: 7%
+}
+.payment-date{
+  width: 15%;
+  height: 35px;
+  margin-left: 50px;
+}
+.report-date-picker{
+  margin-left: 0
+}
+.date-picker-mobile{
+  width: 15%;
+  margin-left: -20px;
+}
+.dashboard-card-width {
+  width: 45%;
+}
+@media screen and (max-width: 768px) {
+  .dashboard-card-width {
+  width: 100%;
+}
+  .search-bar {
+    width: 100%;
+    font-size: 14px;
+  }
+  .search-icon {
+  position: absolute;
+  top: 22px;
+  right:20px;
+  font-size: 30px;
+}
+.search-content{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 95%;
+}
+.change-password-container{
+  width: 100%;
+  margin: 10px;
+}
+.bill-filter1 {
+  width: 30%;
+  position: absolute;
+  bottom: -60px;
+
+}
+.bill-filter2 {
+  width: 30%;
+  position: absolute;
+  bottom: -60px;
+  right: 38%;
+}
+.bill-filter-container{
+  position: relative;
+  display: flex;
+  justify-content: start;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.location-input{
+  display: flex;
+  justify-content: start;
+  width: 20%;
+}
+.transfer-input{
+  display: flex;
+  justify-content: start;
+  width: 30%;
+}
+.locations-container{
+  display: flex;
+  justify-content: start;
+  margin-left: 5px;
+  gap: 5px;
+  margin-right: 5px;
+}
+.quick-search-container{
+  position: relative;
+  width: 55%;
+}
+.flex-container {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.quick-search {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+  position: absolute;
+  bottom: -80px;
+}
+.date-picker-mobile{
+  width: 30%;
+  margin-left: -60px;
+}
+.disbursement-btn{
+  margin-left: -20px;
+}
+.payment-date{
+  width: 40%;
+  height: 35px;
+  margin-left: 20px;
+}
+.report-date-picker{
+  margin-left: 100px;
+  width: 50%;
+}
+}
+
